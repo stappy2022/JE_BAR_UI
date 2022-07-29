@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:drawable="@drawable/location"
-        android:width="45dp"
-        android:height="45dp" />
+    <item android:state_pressed = "true"
+        android:drawable="@drawable/location_after"/><!--pressed-->
+    <item android:state_selected = "true"
+        android:drawable="@drawable/location_after"/><!--selected-->
+    <item android:drawable="@drawable/location_before"/>
 
-</layer-list>
+</selector>
