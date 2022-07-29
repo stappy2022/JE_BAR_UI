@@ -68,7 +68,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:background="@drawable/btnhome_design"
+        android:background="@drawable/btnhome_design"   <!--home ui-->
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.073"
@@ -82,7 +82,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:background="@drawable/btnlocation_design"
+        android:background="@drawable/btnlocation_design"  <!--location ui-->
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.355"
@@ -96,7 +96,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:background="@drawable/btnstorage_design"
+        android:background="@drawable/btnstorage_design"   <!--storage ui-->
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.65"
@@ -110,7 +110,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:background = "@drawable/btnmy_design"
+        android:background = "@drawable/btnmy_design"   <!--my ui-->
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.923"
